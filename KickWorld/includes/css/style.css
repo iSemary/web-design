@@ -1,0 +1,101 @@
+@font-face {
+    font-family: PT Sans;
+    src: url(../webfonts/PTSans-Regular.ttf);
+}
+header {
+    border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #54007a, white);
+  border-image-slice: 1;
+
+}
+.background-content {
+    height: 100%;
+    margin: 0;
+    background: url('../../img/KickWorld-BackGround.svg') no-repeat;
+    background-size: cover;
+    padding-bottom: 44%;
+    color: #FFFFFF;
+    font-family: 'PT Sans',
+    sans-serif;
+ }
+ .logoName {
+    font-weight: bold;
+    color: #5c0085;
+    font-size: 20px;
+}
+ .topicons {
+     padding-left: 100px;
+ }
+ .topicons span {
+         padding: 5px;
+ }
+ .hr-style {
+    float: left;
+    background-color: #5c0085;
+    width: 90px;
+    height: 1px;
+    margin: 0;
+ }
+ .cr7Img {
+    width: 25%;
+    position: absolute;
+    right: 119px;
+    margin: 0px -119px 0px 0px;
+    top: 215px;
+ }
+ .top-left {
+     width: 495px;
+     color: #5c0085;
+     font-weight: bold;
+     float: left;
+    margin: 117px 0px 0px 0px;
+ }
+ .top-right{
+     width: 55%;
+     float: right;
+     text-align: center;
+ }
+ .ballImg {
+     width: 160px;
+ }
+.top-left h2 {
+    margin: 11px 0px 8px 0;
+}
+.btn-ball {
+    -webkit-appearance: unset;
+    cursor: pointer;
+    border: unset;
+    font-size: 18px;
+    padding: 12px 25px 12px 25px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #9C27B0 0%, #5c0085 65%);
+    border-radius: 25px;
+}
+.search-bar {
+        background-color: #9523ab;
+        width: 140px;
+        border-radius: 25px;
+        border: unset;
+        font-size: 13px;
+        color: white;
+        padding: 6px;
+        position: relative;
+}
+.search-bar::placeholder {
+    color: white;
+}
+.mySearch {
+    font-weight: 300;
+    position: absolute;
+    top: 6px;
+    right: 47px;
+}
+.zig-zag-left {
+    width: 160px;
+    float: right;
+}
+.zig-zag-right{
+    float: right;
+    margin: 0 55px 0 0;
+    width: 160px;
+}

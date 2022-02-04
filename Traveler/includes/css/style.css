@@ -1,0 +1,66 @@
+@font-face {
+    font-family: PT Sans;
+    src: url(../webfonts/PTSans-Regular.ttf);
+}
+body {
+    transition: all 2s linear;
+}
+header {
+    margin-top: 10px; 
+}
+.countryName {
+    position: absolute;
+    font-size: 150px;
+    letter-spacing: 55px;
+    font-family: PT Sans;
+    right: 292px;
+    opacity: 2;
+}
+.countryImg {
+    width: 100%;
+    height: 678px;
+    position: absolute;
+    top: -53px;
+    z-index: -100;
+       transition: all 2s linear; 
+}
+.logoName {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: PT Sans;
+    transition: all 2s linear;
+}
+
+.logoName span:first-of-type {
+    color: #0540F2;
+}
+.logoName span:nth-of-type(2) {color: #3D6AF2}
+.logoName span:nth-of-type(3) {
+    color: #02732A
+}
+.logoName span:nth-of-type(4) {
+    color: #F2E205
+}
+.logoName span:nth-of-type(5) {
+    color: #F24130
+}
+.logoName span:nth-of-type(6) {
+    color: #BF1736
+}
+.logoName span:nth-of-type(7) {
+    color: #D96704
+}
+.logoName span:last-of-type{
+color: #6805F2;
+}
+.topicons {
+    text-align: right;
+}
+.form-control {
+    border: 1px solid #8f73b3;
+    padding: 4px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 2px #0540f2;
+    border-radius: 25px;
+    margin: 0px;
+}

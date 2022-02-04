@@ -1,0 +1,141 @@
+header {
+    margin-top: 15px;
+}
+.yellow-line {
+    background-color: #FDCE0C;
+    width: 350px;
+    height: 625px;
+    position: absolute;
+    z-index: -1;
+    right: 265px;
+    top: 0;
+}
+.logoName {
+    font-weight: bold;
+    font-size: 19px;
+}
+.topicons span {
+    margin-left: 5px
+}
+.logging {
+    display: inline;
+}
+.logging span:first-of-type{
+    border: 2px solid #fdce0c;
+    background-color: white;
+    border-radius: 25px;
+    padding: 4px 8px 4px 8px;
+}
+.logging span:last-of-type{
+    background-color: #fdce0c;
+    color: #FFFF;
+    border-radius: 25px;
+    padding: 4px 8px 4px 8px;
+}
+.top-right {
+    width: 50%;
+    float: right;
+}
+.top-left {
+    width: 50%;
+    float: left;
+}
+.top-left p {
+     font-weight: 400;
+     color: #7b7b7b;
+}
+.top-left h1 {
+    font-size: 50px;
+    margin-left: 40px;
+}
+.btn-work {
+    background-color: #FFF;
+    border: 2px solid #212529;
+    padding: 6px 45px 10px 15px;
+    border-radius: 27px;
+    position: relative;
+}
+.href-circle {
+    width: 38px;
+    height: 38px;
+    color: #FFF;
+    top: 0px;
+    border: 1px solid #212529;
+    right: -2px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: #212529;
+}
+.href-circle i {
+    position: absolute;
+    top: 10px;
+    right: 9px;
+}
+.monitor-content {
+    position: relative;
+    top: 135px;
+    background-color: #212529;
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
+}
+.top-monitor {
+    position: relative;
+    width: 297px;
+    height: 15px;
+}
+.top-monitor span:first-of-type {
+    position: absolute;
+    width: 212px;
+    height: 11px;
+    top: 2px;
+    background-color: #dadada;
+    left: 18px;
+    border-radius: 26px;
+}
+.top-monitor span:nth-of-type(2){
+position: absolute;
+width: 11px;
+height: 11px;
+top: 2px;
+background-color: #c50000;
+right: 18px;
+border-radius: 26px;
+}
+.top-monitor span:nth-of-type(3){
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 2px;
+    background-color: green;
+    right: 44px;
+    border-radius: 26px;
+}
+.top-monitor span:last-of-type{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 2px;
+    background-color:blue;
+    right: 32px;
+    border-radius: 26px;
+}
+.middle-monitor p {
+border-left: 2px solid #FFFF;
+color: white;
+font-size: 11px;
+font-family: monospace;
+padding: 0px 10px 10px 10px;
+margin-left: 6px;
+margin-top: 18px;
+
+}
+.bracket {
+    color: #808080;
+}
+.bbyblue {
+    color: #ff0000;
+}
+.browny {
+    color: #09e2ec;
+}

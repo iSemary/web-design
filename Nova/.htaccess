@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+Options -Indexes
+
+ErrorDocument 403 http://localhost/interstellar/404
+ErrorDocument 404 http://localhost/interstellar/404
+
+RewriteBase /interstellar/
+
+</IfModule>

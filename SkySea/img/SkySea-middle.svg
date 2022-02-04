@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#XMLID_4_);}
+	.st1{display:none;fill:url(#XMLID_6_);}
+	.st2{display:none;opacity:0.66;fill:url(#XMLID_7_);}
+	.st3{display:none;fill:#FFFFFF;}
+</style>
+<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="895.1473" y1="163.8727" x2="119.0583" y2="673.7122">
+	<stop  offset="0" style="stop-color:#21A5F0"/>
+	<stop  offset="1" style="stop-color:#BABABA"/>
+</linearGradient>
+<path id="XMLID_3_" class="st0" d="M161.2,562.4c28.1,0,58.5,3.7,84.9,13.9c20.3,7.8,34.8,16.9,57.9,13.3
+	c18.3-2.8,35.4-10.4,53.1-15.9c56.5-17.6,119.5-13.6,173.3,11.2c7.4,3.4,14.8,7.3,23,8.2c13.3,1.6,26.1-4.9,38.4-10.2
+	c63-27.1,137.2-26.9,200.1,0.5c9.5,4.1,19,8.9,29.3,9.5c13.7,0.8,26.5-5.8,39.1-11.2c57.4-24.6,124.5-25.7,182.7-3
+	c34.5,13.4,50.8,15,84.1,1.1c29.4-12.3,62.5-17.5,94.2-17.1c51,0.6,104.5,16.5,146.7,43.8V279.9c-109,0-191.9-100.5-407.5-100.5
+	S683,0,683,0H-2v618.6C43,583.4,99.7,562.4,161.2,562.4z"/>
+<linearGradient id="XMLID_6_" gradientUnits="userSpaceOnUse" x1="72.6073" y1="349.0817" x2="-44.8208" y2="426.2242">
+	<stop  offset="0" style="stop-color:#BABABA"/>
+	<stop  offset="1" style="stop-color:#59BABA"/>
+</linearGradient>
+<path id="XMLID_2_" class="st1" d="M0,254c71.8,0,130,58.2,130,130S71.8,514,0,514"/>
+<linearGradient id="XMLID_7_" gradientUnits="userSpaceOnUse" x1="1393.6348" y1="284.7024" x2="1262.9896" y2="370.5276">
+	<stop  offset="0" style="stop-color:#BABABA"/>
+	<stop  offset="1" style="stop-color:#59BABA"/>
+</linearGradient>
+<path id="XMLID_5_" class="st2" d="M1366,481c-29.6,0-56.9-15.8-71.8-41.4l-50.4-87.1c-14.8-25.7-14.8-57.3,0-83l50.4-87.1
+	c14.8-25.6,42.2-41.4,71.8-41.4"/>
+<path id="XMLID_9_" class="st3" d="M254.2,25.8c-5,0.2-10.2,1.3-15.7,2.6c-1.4,0.3-2.8,0.6-4.3,0.5c-1.6-0.1-3.1-0.8-4.5-1.4
+	c-8.2-3.2-17.5-3.1-25.6,0.3c-1.6,0.7-3.3,1.5-5.1,1.6c-2.2,0.1-4.2-1-6.1-1.9c-5.8-2.5-12.3-3.1-18.4-1.6
+	c-3.5,0.8-6.9,2.3-10.5,2.9c-6.7,1.1-13.1-3.6-20.1-3.6C123.5,25.2,107,41.7,107,62c0,20.3,16.5,36.8,36.8,36.8
+	c7.5,0,13.9-4.6,21.3-3.3c4.2,0.7,8.1,2.4,12.3,3.1c5.7,0.9,11.6,0,16.8-2.7c1.4-0.7,2.8-1.6,4.3-1.6c1.5,0,2.9,0.7,4.2,1.3
+	c8.7,4,19.2,4.2,28,0.5c1.5-0.6,2.9-1.3,4.5-1.5c6-0.6,12.4,4.1,18.9,4.1c20.3,0,36.8-16.5,36.8-36.8c0-11.8-5.8-23.1-15.4-29.9
+	C268.4,26.9,261.5,25.5,254.2,25.8z"/>
+</svg>

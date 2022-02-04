@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="includes/css/bootstrap.css">
+    <link rel="stylesheet" href="includes/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="includes/css/all.css">
+    <link rel="stylesheet" href="includes/css/normalize.css">
+    <link rel="stylesheet" href="includes/css/style.css">
+    <title>Traveler</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-6">
+                    <span class="logoName">
+                        <span>T</span><span>r</span><span>a</span><span>v</span><span>e</span><span>l</span><span>e</span><span>r</span>
+                    </span>
+                </div>
+                <div class="col-6 topicons">
+                    <select class="form-control" id="countrySelect">
+                        <option value="" selected>Select Country</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Rio">Rio</option>
+                        <option value="Egypt">Egypt</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="between-content">
+        <h1 class="countryName">Rio</h1>
+        <img src="img/rio.png" class="countryImg" alt="">
+    </div>
+    <script src="includes/script/respond.min.js"></script>
+    <script src="includes/script/jquery-3.3.1.min.js"></script>
+    <script src="includes/script/jquery-ui.min.js"></script>
+    <script src="includes/script/bootstrap.min.js"></script>
+    <script lang="javascript">
+        $(document).ready(function () {
+                $('#countrySelect').on('change', function (e) {
+                    var valueSelected = this.value;
+                    $("#test").text(valueSelected);
+                    $(".countryName").fadeOut(500, "linear").text(valueSelected).fadeIn(1000);
+                    $(".countryImg").fadeOut(500,"linear").attr('src', 'img/'+ valueSelected+'.png').fadeIn(500);
+            });
+        });
+    </script>
+</body>
+
+</html>

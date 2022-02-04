@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Sulphur Point;
+    src: url(../webfonts/SulphurPoint-Regular.ttf);
+}
+
+@font-face {
+    font-family: Vidaloka;
+    src: url(../webfonts/Vidaloka-Regular.ttf);
+}
+
+@font-face {
+    font-family: Aladin;
+    src: url(../webfonts/Aladin-Regular.ttf);
+}
+
+body {
+    background-color: #292524;
+    color: white;
+    font-family: 'Vidaloka', serif;
+}
+
+.background-content {
+    background: url('../../img/Hoster-BackGround.svg') no-repeat;
+    background-size: cover;
+    padding-bottom: 42%
+}
+
+.logoContent {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.topicons {
+    text-align: center;
+    margin-top: 5px
+}
+
+.topicons span {
+    padding: 0 7px;
+}
+
+.LogoImg {
+    width: 45px;
+    margin: 0px 0 8px 0;
+}
+
+.logoName {
+    font-family: Aladin;
+    color: #b9bf04;
+    font-family: Aladin;
+    font-size: 25px;
+}
+
+.top-left {
+    width: 50%;
+    float: left;
+    font-family: 'Sulphur Point',
+        sans-serif;
+    padding-top: 120px;
+
+}
+
+.btn-secure {
+    border: 2px solid #b9bf04;
+    background-color: transparent;
+    color: #b9bf04;
+    padding: 9px 47px;
+    border-radius: 3px;
+    margin: 0 175px;
+    box-shadow: 0 0 3px #b9bf04;
+}
+
+.top-right {
+    float: right;
+    width: 50%;
+}
+
+.D-Server {
+float: right;
+width: 535px;
+padding: 200px 0px 0px 60px;
+margin: 0 -109px 0 0;
+}
+.D2-Server {
+width: 179px;
+padding: 0;
+position: absolute;
+top: 383px;
+right: 473px;
+}
+@keyframes zooming {
+   0% {
+        right: 0px;
+        opacity: 1;
+    }
+
+    50% {
+        right: 19px;
+        top: 30px;
+        opacity: 0.1;
+    }
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
+}
+.D3-Server {
+    width: 179px;
+    padding: 0;
+    position: absolute;
+    top: 4px;
+    opacity: 0;
+    animation: zooming 2s infinite;
+}
+
+
+
+@keyframes zigLight {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+#XMLID_1655_ path,
+#XMLID_1653_ path,
+#XMLID_1651_ path,
+#XMLID_1228_ path,
+#XMLID_1226_ path,
+#XMLID_1514_ path,
+#XMLID_913_ path,
+#XMLID_911_ path,
+#XMLID_909_ path {
+    animation: zigLight 0.2s infinite;
+}
+.Anim1 {
+
+}

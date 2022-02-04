@@ -1,0 +1,333 @@
+@font-face {
+    font-family: BalooBhai;
+    src: url(../webfonts/BalooBhai-Regular.ttf);
+}
+
+.backgroundMiddle {
+    background-image: url(../../img/RocketyBackGround.svg);
+    background-size: cover;
+    padding-bottom: 544px;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: BalooBhai;
+}
+
+.logoName {
+    font-size: 37px;
+    color: #2196F3;
+}
+
+header {
+    padding-top: 20px;
+}
+
+.Rocket {
+    position: absolute;
+    right: 0;
+    top: 200px;
+    width: 251px;
+    animation: rocketWiggle 2s infinite;
+}
+
+@keyframes rocketWiggle {
+    0% {
+        top: 210px;
+    }
+
+    50% {
+        right: 0;
+        top: 200px;
+    }
+
+    100% {
+        top: 210px;
+    }
+}
+
+.RocketMoon {
+    position: absolute;
+}
+
+.RocketRound {
+    position: absolute;
+    width: 719px;
+    right: 0;
+}
+
+.Round-Circles {
+    position: absolute;
+    display: flex;
+}
+
+.Round-Circles .roundblue-dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #2196F3;
+    position: absolute;
+    top: 87px;
+    left: 1274px;
+}
+
+.Round-Circles .roundred-dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #e42e2e;
+    position: absolute;
+    top: 42px;
+    left: 1201px;
+}
+
+.outBackgroud-circles {
+    position: absolute;
+    display: flex;
+}
+
+.outBackgroud-circles span:first-of-type {
+    position: absolute;
+    top: 323px;
+    left: 653px;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #3c4b98;
+}
+
+.outBackgroud-circles span:nth-of-type(2) {
+    position: absolute;
+    top: 469px;
+    left: 774px;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: #790f7c;
+}
+
+.outBackgroud-circles span:last-of-type {
+    position: absolute;
+    top: 131px;
+    left: 497px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #e42e2e;
+}
+
+.background-circles {
+    position: absolute;
+    right: 5px;
+    display: flex;
+    top: 11px;
+}
+
+.background-circles span {
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    position: absolute;
+    right: 5px;
+}
+
+.background-circles .redy-dot {
+    background-color: #E57373;
+    box-shadow: 0 0 1px 2px #ff5757eb;
+    animation: wiggle1 2s infinite;
+
+}
+
+.background-circles .whity-dot {
+    background-color: #ffffff96;
+    box-shadow: 0 0 1px 0px #fff;
+    animation: wiggle2 2s infinite;
+}
+
+.background-circles .bluey-dot {
+    background-color: #8ec1ed6e;
+    box-shadow: 0 0 1px #679ac5;
+    animation: wiggle3 2s infinite;
+}
+
+@keyframes wiggle1 {
+    0% {
+        box-shadow: 0 0 1px 2px #ff5757eb;
+    }
+
+    50% {
+        box-shadow: 0 0 10px 2px #ff5757eb;
+    }
+
+    100% {
+        box-shadow: 0 0 1px 2px #ff5757eb;
+    }
+}
+
+@keyframes wiggle2 {
+    0% {
+        box-shadow: 0 0 1px 0px #fff;
+    }
+
+    50% {
+        box-shadow: 0 0 10px 0px #fff;
+    }
+
+    100% {
+        box-shadow: 0 0 1px 0px #fff;
+    }
+}
+
+@keyframes wiggle3 {
+    0% {
+        box-shadow: 0 0 1px #679ac5;
+    }
+
+    50% {
+        box-shadow: 0 0 8px #679ac5;
+    }
+
+    100% {
+        box-shadow: 0 0 1px #679ac5;
+    }
+}
+
+/* RED */
+.background-circles .redy-dot:first-of-type {
+    top: 70px;
+    right: 150px;
+    width: 9px;
+    height: 9px;
+}
+
+.background-circles .redy-dot:nth-of-type(2) {
+    top: 317px;
+    right: 278px;
+    width: 13px;
+    height: 13px;
+}
+
+.background-circles .redy-dot:nth-of-type(3) {
+    top: 50px;
+    right: 308px;
+    width: 9px;
+    height: 9px;
+}
+
+.background-circles .redy-dot:last-of-type {
+    top: 201px;
+    right: 71px;
+    width: 6px;
+    height: 6px;
+}
+
+/* WHITE */
+.background-circles .whity-dot:first-of-type {
+    top: 18px;
+    right: 203px;
+    width: 6px;
+    height: 6px;
+}
+
+.background-circles .whity-dot:nth-of-type(2) {
+    top: 392px;
+    right: 483px;
+    width: 10px;
+    height: 10px;
+}
+
+.background-circles .whity-dot:nth-of-type(3) {
+    top: 195px;
+    right: 609px;
+    width: 12px;
+    height: 12px;
+}
+
+.background-circles .whity-dot:last-of-type {
+    top: 170px;
+    right: 271px;
+    width: 6px;
+    height: 6px;
+}
+
+/* BLUE */
+.background-circles .bluey-dot:first-of-type {
+    top: 454px;
+    right: 326px;
+    width: 6px;
+    height: 6px;
+}
+
+.background-circles .bluey-dot:nth-of-type(2) {
+    top: 331px;
+    right: 597px;
+    width: 5px;
+    height: 5px;
+}
+
+.background-circles .bluey-dot:nth-of-type(3) {
+    top: 222px;
+    right: 452px;
+    width: 12px;
+    height: 12px;
+}
+
+.background-circles .bluey-dot:last-of-type {
+    top: 157px;
+    right: 166px;
+    width: 6px;
+    height: 6px;
+}
+
+.between-content {
+    width: 48%;
+    float: left;
+    margin-top: 100px;
+}
+
+.website-content h2 {
+    font-size: 75px;
+    color: #54a1e4a8;
+    margin-bottom: 0;
+}
+
+.website-content p {
+    color: #bdbdbd;
+}
+
+.website-content .dots-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.website-content .dots-bar span {
+    width: 10px;
+    height: 10px;
+    background-color: #bdbdbd;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.btn-rocket {
+    margin: 0 auto;
+    font-family: BalooBhai;
+    border-radius: 9px;
+    border: 0;
+    padding: 10px 13px;
+    color: #FFF;
+    margin-left: 208px;
+    background: linear-gradient(34deg, rgba(20, 105, 173, 1) 0%, rgba(141, 13, 107, 1) 50%, rgba(112, 6, 124, 1) 100%);
+}
+
+.footer {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+}
+
+.footer a {
+    margin-right: 50px;
+    font-size: 21px;
+    color: #8ec1ed;
+}

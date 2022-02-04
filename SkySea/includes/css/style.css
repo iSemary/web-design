@@ -1,0 +1,104 @@
+@font-face {
+    font-family: PT Sans;
+    src: url(../webfonts/PTSans-Regular.ttf);
+}
+.backgroundMiddle {
+    height: 100%;
+    margin: 0;
+    background: url('../../img/SkySea-middle.svg') no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+    color: #FFFFFF;
+    font-family: 'PT Sans',sans-serif;
+}
+#bubble {
+    position: relative;
+    width: 120px;
+    top: 10px;
+}
+#left {
+    position: absolute;
+    bottom: -5%;
+}
+#right {
+        position: absolute;
+        top: 10%;
+        right: 0;
+        z-index: 1;
+}
+.logoImg{
+    left: 23px;
+    position: absolute;
+    width: 35px;
+    margin-top: 10px;
+    margin-bottom: 21px;
+    top: 7px;
+}
+.logoName {
+    background: linear-gradient(90deg, rgba(186, 186, 186, 1) 0%, rgba(33, 165, 240, 1) 74%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-size: 21px;
+     position: absolute;
+     top: 17px;
+     left: 60px;
+}
+.topicons{
+    margin-top: 12px;
+}
+.topicons:not(i) {
+    background: linear-gradient(90deg, rgba(186, 186, 186, 1) 33%, rgba(33, 165, 240, 1) 69%);
+    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 18px;
+        font-weight: 500;
+    padding: 0 0px 0 45px;
+}
+.fas{
+        -webkit-text-fill-color: #aab8c0;
+}
+.topicons span {
+    padding: 5px;
+}
+.between-content {
+    width: 826px;
+    margin: 0 auto;
+}
+
+.between-content h1 {
+    text-align: center;
+    background: linear-gradient(35deg, rgba(255, 255, 255, 1) 56%, rgba(33, 165, 240, 1) 73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.between-content p {
+    text-align: center;
+    font-size: 26px;
+}
+.box-content {
+    /*position: fixed;*/
+    width: 842px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 20px auto;
+}
+.box-1,.box-2,.box-3 {
+    background-color: #ffffff;
+    color: #73b0d2;
+    width: 150px;
+    padding: 9px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 8px white,
+    inset 0 0 2px #76b1d2;
+}
+.box-1 p,
+.box-2 p,
+.box-3 p {
+    font-size: 10px
+}

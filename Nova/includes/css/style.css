@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../webfonts/Montserrat-Regular.ttf);
+}
+body {
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+header {
+    padding-top: 20px;
+}
+.background-svg {
+    background: url('../../img/Nova_BackGround.svg') no-repeat;
+    background-size: cover;
+    padding-bottom: 160px;
+}
+.topimg {
+    width: 300px;
+    right: 240px;
+    position: absolute;
+    top: 72px;
+}
+.topicons {
+    height: 41px;
+}
+.topicons span{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 32px;
+    text-shadow: 0 0 3px #FFFF;
+    position: relative;
+}
+.topicons span i {
+    position: absolute;
+    top: 25px;
+    left: 13px;
+    font-size: 12px;
+}
+.novalogo {
+    width: 20px;
+}
+.top-left {
+    margin-top: 120px;
+    margin-left: 49px;
+}
+.top-left h1 {
+    margin-bottom: 5px
+}
+.abouty {
+    position: absolute;
+    right: 37px;
+    font-size: 9px;
+    transform: rotateZ(270deg);
+    top: 270px;
+    text-shadow: 0 0 3px #FFFF;
+}
+.about-us {
+    width: 830px;
+    height: 500px;
+    color: #202020;
+    margin: 0 auto;
+}
+.aboutImg {
+    float: left;
+    width: 180px;
+    height: 225px;
+    margin-right: 50px
+}
+.about-us h6 {
+    font-weight: bold;
+}
+.hry1 {
+    width: 75px;
+    background-color: #202020;
+    position: absolute;
+    top: 420px;
+    left: 490px;
+    height: 1px;
+}
+.hry2 {
+    width: 30px;
+    background-color: #202020;
+    position: absolute;
+    top: 419px;
+    left: 490px;
+    height: 3px;
+}
+.about-us p {
+    font-size: 15px;
+    line-height: 2;
+}

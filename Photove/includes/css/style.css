@@ -1,0 +1,123 @@
+@media (min-width: 1200px){
+     .container {
+        max-width: 1305px !important;
+    }
+}
+
+header {
+    margin-top: 23px;
+}
+.bluery-text {
+    position: absolute;
+    font-weight: bold;
+    letter-spacing: 51px;
+    font-size: 63px;
+    left: 34px;
+    top: -19px;
+    opacity: 0.1;
+    user-select: none;
+}
+.logoName {
+    margin-left: 215px;
+    letter-spacing: 6px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.logoW {
+    font-weight: bold;
+}
+.logoB{
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: black;
+}
+.topicons {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.topicons a.active {
+    color: #ad1457;
+}
+.topicons a:hover {
+    color: #ad14569a;
+}
+.topicons a {
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 12px;
+}
+.topsocial span {
+    cursor: pointer;
+    color: #AD1457;
+    font-size: 19px;
+    border-radius: 33px;
+    margin-left: 10px;
+}
+.top-content {
+    width: 750px;
+    text-align: center;
+    margin: 130px auto 30px auto;
+}
+.btn-read {
+    border: 0;
+    padding: 15px 23px 15px 23px;
+    color: white;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(173, 20, 87, 1) 0%, rgba(112, 6, 124, 0.5858718487394958) 100%);
+}
+.btn-read i {
+    top: -2px;
+    font-size: 10px;
+    position: relative;
+}
+.top-content h1 {
+    letter-spacing: 9px;
+    font-weight: bold;
+}
+.middle-content {
+
+}
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+.middle-content img {
+    width: 319px;
+    height: 350px;
+}
+.bluer-circle {
+    background-color: #64B5F6;
+    width: 150px;
+    height: 150px;
+    right: 847px;
+    border-radius: 80px;
+    position: absolute;
+    opacity: 0.4;
+}
+.greeny {
+    background-color: #8BC34A;
+    width: 70px;
+    height: 70px;
+    top: 175px;
+    right: 445px;
+}
+.diff-letter {
+    color: #ad1457a6;
+}
+.third-content {
+    margin-top: 25px;
+}
+.third-content .incontent {
+    width: 450px;
+    text-align: justify;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    color: #5a5a5a;
+    margin-top: 25px;
+    background: linear-gradient(0deg, rgb(203, 108, 150) 0%, rgba(255, 255, 255, 1) 100%);
+
+}
